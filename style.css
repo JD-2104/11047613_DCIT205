@@ -188,7 +188,7 @@ nav ul li{
   background-color: rgb(4, 3, 75);
 }
 
-.help-button{
+.events-button{
   background-color: rgb(6, 45, 104);
   border: none;
   color: white;
@@ -199,10 +199,10 @@ nav ul li{
   font-weight: bold;
   transition: 0.5s;
 }
-.help-button:hover {
+.events-button:hover {
   opacity: 0.8;
 }
-.help-button:active {
+.events-button:active {
   background-color: rgb(4, 3, 75);
 }
 
@@ -756,4 +756,65 @@ h3{
   color: #fff;
   border: 1px solid rgb(21,21,100);
   cursor: pointer;
+}
+
+
+#course1{
+  padding: 8vw 8vw 0 8vw;
+  text-align: center;
+}
+
+#course1 .course-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 50px;
+}
+
+#course1 .courses1{
+  text-align: start;
+  background-color: #F9F9FF;
+  height: 100%;
+  position: relative;
+
+}
+
+#course1 .courses1 img{
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+}
+
+#course1 .courses1 .details {
+  padding: 15px 15px 0 15px;
+}
+
+#course1 .courses1 .details i {
+  color: #FDC93B;
+  font-size: .9rem;
+}
+
+#course1 .courses1 .cost{
+  background-color: green;
+  color: #fff;
+  line-height: 70px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  bottom: 100px;
+
+}
+
+
+#course1 h6{
+  font-size: medium;
+  font-weight: bold;
+}
+
+#course1 span{
+  color: grey;
 }
