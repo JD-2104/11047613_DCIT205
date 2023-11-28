@@ -63,11 +63,14 @@ nav ul li{
   margin: 0 20px;
 }
 
-.content a:hover{
-  background-color: white;
-  color: black;
 
+
+.content p{
+  font-size: 19px;
+  color: #fff;
+  padding-top: 0px;
 }
+
 .background-clip{
   position: absolute;
   right: 0;
@@ -932,23 +935,151 @@ h3{
   color: white;
 }
 
+
+
+
+
+
+
+
 #features{
   padding: 5vw 8vw 0 8vw;
   text-align: center;
+}
+
+
+#features .fea-base {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(320px,1fr));
+  grid-gap: 1rem;
 }
 
 #features .fea-box{
   background-color: #F9F9FF;
   text-align: start;
 }
+
+#features .fea-box i{
+  font-size: 2.3rem;
+  color: rgb(44,44,80);
+
+}
+
 #features .fea-box h3{
+  font-size: 1.2rem;
   text-align: start;
+  font-weight: 600;
+  color: rgb(46,46,59);
+  padding:13px 0 7px 0;
 }
 #features .fea-box p{
   text-align: start;
   padding-left: 0px;
 }
-#features .fea-box i{
+
+#features .fea-box p{
+  font-size: 1rem;
+  text-align: start;
+  font-weight: 400;
+  color: rgb(70,70,87);
+ }
+
+.campus2{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 50px;
+}
+.campus2 h1{
+  color: rgb(8, 8, 104);
+}
+.campus2 p{
+  color: black;
+}
+
+.campus3{
+  width: 80%;
+  margin: auto;
+  text-align:end;
+  padding-top: 50px;
+}
+.campus3 h1{
+  color: rgb(8, 8, 104);
+}
+.campus3 p{
+  color: black;
+}
+
+
+
+
+.course-home-text{
+  width: 40%;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 65%; 
+  transform: translate(-90%,-90%);
+  text-align: center;
+}
+
+.course-home-text h1{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+.course-home-text p{
+  color: #fff;
+}
+.course-banner{
+  width: 100%;
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(assets/2196475.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+#features1{
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+}
+
+
+#features1 .fea-base1 {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(320px,1fr));
+  grid-gap: 1rem;
+}
+
+#features1 .fea-box1{
+  background-color: #F9F9FF;
+  text-align: start;
+}
+
+#features1 .fea-box1 i{
   font-size: 2.3rem;
   color: rgb(44,44,80);
+
 }
+
+#features1 .fea-box1 h3{
+  font-size: 1.2rem;
+  text-align: start;
+  font-weight: 600;
+  color: rgb(46,46,59);
+  padding:13px 0 7px 0;
+}
+#features1 .fea-box1 p{
+  text-align: start;
+  padding-left: 0px;
+}
+
+#features1 .fea-box1 p{
+  font-size: 1rem;
+  text-align: start;
+  font-weight: 400;
+  color: rgb(70,70,87);
+ }
