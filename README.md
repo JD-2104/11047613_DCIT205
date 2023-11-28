@@ -47,5 +47,47 @@ I also learnt how to link several webpages together as well as make them functio
 To clone the repository, I used the git command 'git clone[url]'
 
 
+## Home page
+
+![Home](https://github.com/JD-2104/11047613_DCIT205/blob/main/Home.jpeg)
+
+## About page
+
+![About](https://github.com/JD-2104/11047613_DCIT205/blob/main/About.jpeg)
+
+## Courses page
+
+![Course](https://github.com/JD-2104/11047613_DCIT205/blob/main/Courses.jpeg)
+
+## Contact page
+
+![Contact](https://github.com/JD-2104/11047613_DCIT205/blob/main/Contact.jpeg)
+
+## Register 
+
+![Register](https://github.com/JD-2104/11047613_DCIT205/blob/main/Register.jpeg)
+
+## Faculty page
+
+![Faculty](https://github.com/JD-2104/11047613_DCIT205/blob/main/Faculty.jpeg)
+
+## Advice page
+
+![Advice](https://github.com/JD-2104/11047613_DCIT205/blob/main/Advice.jpeg)
+
+## Short Courses page
+
+![ShortCourses](https://github.com/JD-2104/11047613_DCIT205/blob/main/Short%20Courses.jpeg)
+
+## Undergraduate page
+
+![UndergraduateCourses](https://github.com/JD-2104/11047613_DCIT205/blob/main/Undergraduate%20Courses.jpeg)
+
+## PHD Program page
+
+![PHDProgram](https://github.com/JD-2104/11047613_DCIT205/blob/main/PHD%20Program.jpeg)
+
+
+
 
 
