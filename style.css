@@ -638,6 +638,8 @@ h3{
 .advice-footer p{
   text-align: center;
   color: black;
+  font-weight: bold;
+  font-size: 95%;
 
 }
 
@@ -1045,41 +1047,57 @@ h3{
 #features1{
   padding: 5vw 8vw 0 8vw;
   text-align: center;
+  background-color:rgb(255, 222, 179);
 }
 
 
-#features1 .fea-base1 {
+#features1 .fea-base {
   display: grid;
   grid-template-columns: repeat(autofit, minmax(320px,1fr));
   grid-gap: 1rem;
 }
 
-#features1 .fea-box1{
+#features1 .fea-box {
   background-color: #F9F9FF;
   text-align: start;
 }
 
-#features1 .fea-box1 i{
+#features1 .fea-box i{
   font-size: 2.3rem;
   color: rgb(44,44,80);
 
 }
 
-#features1 .fea-box1 h3{
+#features1 .fea-box h3 {
   font-size: 1.2rem;
-  text-align: start;
+  text-align: center;
   font-weight: 600;
-  color: rgb(46,46,59);
+  color: orange;
   padding:13px 0 7px 0;
 }
-#features1 .fea-box1 p{
+#features1 .fea-box p{
   text-align: start;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 
-#features1 .fea-box1 p{
+#features1 .fea-box p{
   font-size: 1rem;
   text-align: start;
-  font-weight: 400;
-  color: rgb(70,70,87);
+  font-weight: 600;
+  color: rgb(2, 2, 17);
  }
+
+ #features1 .fea-box h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+  color: orange;
+  padding:13px 0 7px 0;
+}
+
+
+
+
+
+
+ 
