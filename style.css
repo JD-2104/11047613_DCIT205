@@ -905,3 +905,50 @@ h3{
   font-weight: 500;
   font-size: 0.9rem;
 }
+
+.PHD-banner{
+  width: 100%;
+  height: 60vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url(assets/1704555.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.PHD-home-text{
+  width: 40%;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 65%; 
+  transform: translate(-90%,-90%);
+  text-align: center;
+}
+
+.PHD-home-text h1{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+.PHD-home-text p{
+  color: white;
+}
+
+#features{
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+}
+
+#features .fea-box{
+  background-color: #F9F9FF;
+  text-align: start;
+}
+#features .fea-box h3{
+  text-align: start;
+}
+#features .fea-box p{
+  text-align: start;
+  padding-left: 0px;
+}
+#features .fea-box i{
+  font-size: 2.3rem;
+  color: rgb(44,44,80);
+}
