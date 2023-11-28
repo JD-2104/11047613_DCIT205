@@ -692,3 +692,23 @@ h3{
   background-size: cover;
   background-position: center;
 }
+
+.teachers slide1{
+  text-align: center;
+    width: 30rem;
+    
+}
+  
+.teacgers image{
+    position: relative;
+    overflow: hidden;
+}
+.teachers img{
+      background:#5959d4;
+      width: 30%;
+}
+
+.content1{
+  
+}
+  
